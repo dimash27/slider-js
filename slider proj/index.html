@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+      <section id="project" class="completed-projects">
+        <div class="container full-block">
+            <div class="block-1">
+                <h2 class="title title__space">
+                    Completed</br>
+                    Projects
+                </h2>
+                <div class="text-reg">
+                    <span>Only a small part of the work performed by our company is presented</span><br>
+                    <span>is presented on the site. For 14 years on in the construction</span><br>
+                    <span>market we have made happy more than 1000 families</span><br>
+                </div>
+
+                <div id="rostov-admiral-info" class="proj-desc__active">
+                    <div class="desc__detail">
+                        <span class="title title__small">city:</span><br>
+                        <span class="text-reg__small">
+                            Rostov-on-Don<br>
+                            LCD admiral
+                        </span>
+                    </div>  
+                    <div class="desc__detail">
+                        <span class="title title__small">APARTMENT AREA:</span><br>
+                        <span class="text-reg__small">81 m2</span>
+                    </div>       
+                    <div class="desc__detail">
+                        <span class="title title__small">REPAIR TIME:</span><br>
+                        <span class="text-reg__small">3.5 months</span>
+                    </div>              
+                    <div class="desc__detail">
+                        <span class="title title__small">REPAIR COST:</span><br>
+                        <span class="text-reg__small">Upon request</span>
+                    </div>               
+                </div>
+
+                <div id="sochi-thieves-info" class="proj-desc__active proj-desc__hidden">
+                    <div class="desc__detail">
+                        <span class="title title__small">city:</span><br>
+                        <span class="text-reg__small">
+                            Sochi<br>
+                            Thieves
+                        </span>
+                    </div>  
+                    <div class="desc__detail">
+                        <span class="title title__small">APARTMENT AREA:</span><br>
+                        <span class="text-reg__small">105 m2</span>
+                    </div>       
+                    <div class="desc__detail">
+                        <span class="title title__small">REPAIR TIME:</span><br>
+                        <span class="text-reg__small">4 months</span>
+                    </div>              
+                    <div class="desc__detail">
+                        <span class="title title__small">REPAIR COST:</span><br>
+                        <span class="text-reg__small">Upon request</span>
+                    </div>               
+                </div>
+
+                <div id="rostov-patriotic-info" class="proj-desc__active proj-desc__hidden">
+                    <div class="desc__detail">
+                        <span class="title title__small">city:</span><br>
+                        <span class="text-reg__small">
+                            Rostov-on-Don<br>
+                            Patriotic
+                        </span>
+                    </div>  
+                    <div class="desc__detail">
+                        <span class="title title__small">APARTMENT AREA:</span><br>
+                        <span class="text-reg__small">93 m2</span>
+                    </div>       
+                    <div class="desc__detail">
+                        <span class="title title__small">REPAIR TIME:</span><br>
+                        <span class="text-reg__small">3 months</span>
+                    </div>              
+                    <div class="desc__detail">
+                        <span class="title title__small">REPAIR COST:</span><br>
+                        <span class="text-reg__small">Upon request</span>
+                    </div>               
+                </div>
+
+                <div class="proj-arrow__slider">
+                    <img id="left-arrow" src="./img/left-arrow.svg" alt="" class="proj-left-arrow">
+                    <div class="proj-slider-buttons">
+                        <div id="left-btn" class="proj-slider__button proj-slider__button__active"></div>
+                        <div id="mid-btn" class="proj-slider__button"></div>
+                        <div id="right-btn" class="proj-slider__button"></div>
+                    </div>
+                    <img id="right-arrow" src="./img/right-arrow.svg" alt="" class="proj-right-arrow">
+                </div>
+            </div>
+
+            <div class="block-2">
+                <ul class="proj-nav-bar">
+                    <li id="nav-bar__admiral" class="proj-nav-bar__name proj-nav-bar__name__active">ROSTOV-ON-DON, ADMIRAL</li>
+                    <li id="nav-bar__sochi" class="proj-nav-bar__name">SOCHI THIEVES</li>
+                    <li id="nav-bar__patriot" class="proj-nav-bar__name">ROSTOV-ON-DON PATRIOTIC</li>
+                </ul>
+                <img id="admiral-photo" class="proj-nav-bar__photo" src="img/admiral.png" alt="">
+                <img id="sochi-photo" class="proj-nav-bar__photo__hidden" src="img/sochi.png" alt="">
+                <img id="patriot-photo" class="proj-nav-bar__photo__hidden" src="img/patriot.png" alt="">
+            </div>
+        </div>
+      </section>
+      <script src="./script.js"></script>
+  </body>
+</html>
